@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # chenpi
-
+#1111
 from os.path import join, isfile
 from os import walk
 import io
@@ -13,7 +13,7 @@ from setuptools import find_packages, setup, Command
 
 def read_file(filename):
     with open(filename) as fp:
-        return fp.read().strip()
+        return fp.read().strip().
 
 
 def read_requirements(filename):
